@@ -17,7 +17,7 @@ var frequencySort = function(s) {
 
     let fLetters = Object.entries(frequency);
     const sortArray = fLetters.sort((a,b) => a[1] - b[1]).map((arr) => arr[0]).reverse().join('');
-    return frequency;
+    return sortArray;
 };
 
 
